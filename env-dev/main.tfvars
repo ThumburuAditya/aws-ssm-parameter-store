@@ -4,4 +4,6 @@ parameters =[
   {name = "dev.frontend.user_url", value = "http://user-dev.thumburuaditya.online:8080"},
   {name = "dev.frontend.shipping_url", value = "http://shipping-dev.thumburuaditya.online:8080"},
   {name = "dev.frontend.payment_url", value = "http://payment-dev.thumburuaditya.online:8080"}
+  {name = "dev.catalogue.mongo_endpoint", value = "http://mongodb-dev.thumburuaditya.online"}
+
 ]
