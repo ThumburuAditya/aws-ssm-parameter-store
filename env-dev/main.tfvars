@@ -6,6 +6,10 @@ parameters =[
   {name = "dev.frontend.payment_url", value = "http://payment-dev.thumburuaditya.online:8080"},
   {name = "dev.catalogue.mongo_endpoint", value = "http://mongodb-dev.thumburuaditya.online"},
   {name = "dev.catalogue.mongo", value = "MONGO=true"},
-  {name = "dev.catalogue.mongo-url", value = "mongodb://mongodb-dev.thumburuaditya.online:27017/catalogue"}
-
+  {name = "dev.catalogue.mongo-url", value = "mongodb://mongodb-dev.thumburuaditya.online:27017/catalogue"},
+  {name = "dev.redis_host", value = "redis-dev.thumburuaditya.online"},
+  {name = "dev.catalogue_host", value = "catalogue-dev.thumburuaditya.online"},
+  {name = "dev.mongo", value = "MONGO=true"},
+  {name = "dev.redis_host", value = "redis-dev.thumburuaditya.online"},
+  {name = "dev.mongo_url", value = "mongodb://mongodb-dev.thumburuaditya.online:27017/users"},
 ]
