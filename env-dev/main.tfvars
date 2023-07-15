@@ -12,4 +12,6 @@ parameters =[
   {name = "dev.mongo", value = "MONGO=true"},
   {name = "dev.redis_host", value = "redis-dev.thumburuaditya.online"},
   {name = "dev.mongo_url", value = "mongodb://mongodb-dev.thumburuaditya.online:27017/users"},
+  {name = "dev.cart_endpoint", value = "cart-dev.thumburuaditya.online:8080"},
+  {name = "dev.DB_host", value = "mysql-dev.thumburuaditya.online"}
 ]
