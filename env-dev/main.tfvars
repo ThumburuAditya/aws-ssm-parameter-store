@@ -9,6 +9,7 @@ parameters =[
   {name = "dev.catalogue.mongo-url", value = "mongodb://mongodb-dev.thumburuaditya.online:27017/catalogue"},
   {name = "dev.user.redis_host", value = "redis-dev.thumburuaditya.online"},
   {name = "dev.catalogue_host", value = "catalogue-dev.thumburuaditya.online"},
+  {name = "dev.catalogue_port", value = "8080"},
   {name = "dev.mongo", value = "MONGO=true"},
   {name = "dev.cart.redis_host", value = "redis-dev.thumburuaditya.online"},
   {name = "dev.mongo_url", value = "mongodb://mongodb-dev.thumburuaditya.online:27017/users"},
