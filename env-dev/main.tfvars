@@ -13,9 +13,9 @@ parameters =[
   {name = "dev.user.mongo", value = "MONGO=true"},
   {name = "dev.user.redis_host", value = "redis-dev.thumburuaditya.online"},
   {name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.thumburuaditya.online:27017/users"},
-  {name = "dev.cart_endpoint", value = "cart-dev.thumburuaditya.online:8080"},
-  {name = "dev.DB_host", value = "mysql-dev.thumburuaditya.online"},
-  {name = "dev.DB_user", value = "root"},
+  {name = "dev.shipping.cart_endpoint", value = "cart-dev.thumburuaditya.online:8080"},
+  {name = "dev.shipping.DB_host", value = "mysql-dev.thumburuaditya.online"},
+  {name = "dev.shipping.DB_user", value = "root"},
   {name = "dev.paymentcart_host", value = "cart-dev.thumburuaditya.online"},
   {name = "dev.paymentcart_port", value = "8080"},
   {name = "dev.paymentuser_host", value = "user-dev.thumburuaditya.online"},
@@ -25,6 +25,6 @@ parameters =[
 ]
 
 passwords =[
-  {name = "dev.DB_password", value = "RoboShop@1"},
+  {name = "dev.shipping.DB_password", value = "RoboShop@1"},
   {name = "dev.paymentamqp_password", value = "roboshop123"}
 ]
