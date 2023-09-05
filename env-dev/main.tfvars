@@ -28,6 +28,6 @@ parameters =[
 passwords =[
   {name = "dev.shipping.DB_password", value = "RoboShop@1"},
   {name = "dev.payment.amqp_password", value = "roboshop123"},
-  {name = "dev.docdb.DB_user", value = "roboshop"},
-  {name = "dev.docdb.DB_password", value = "roboshop123456"}
+  {name = "dev.docdb.db_user", value = "roboshop"},
+  {name = "dev.docdb.db_pass", value = "roboshop123456"}
 ]
